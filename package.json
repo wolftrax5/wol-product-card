@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "1.0.0-rc",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -71,7 +71,8 @@
     "size-limit": "^7.0.8",
     "tsdx": "^0.14.1",
     "tslib": "^2.4.0",
-    "typescript": "^4.7.3"
+    "typescript": "^4.7.3",
+    "@types/react-test-renderer": "^18.0.0"
   },
   "keywords": [
     "product",
@@ -79,9 +80,7 @@
     "wolftrax",
     "typescript"
   ],
-  "dependencies": {
-    "@types/react-test-renderer": "^18.0.0"
-  },
+  "dependencies": {},
   "jest": {
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy",
